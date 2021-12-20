@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/SampleWebApiCore/SampleWebApiCore/SampleWebApiCore/obj
+/SampleWebApiCore/SampleWebApiCore/.vs/SampleWebApiCore

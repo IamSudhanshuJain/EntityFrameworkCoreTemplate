@@ -5,3 +5,6 @@
 /.vs
 /SampleWebApiCore/SampleWebApiCore/SampleWebApiCore/obj
 /SampleWebApiCore/SampleWebApiCore/.vs/SampleWebApiCore
+/SampleWebApiCore/SampleWebApiCore/SampleWebApiCore/bin/Debug/net5.0
+/SampleWebApiCore/SampleWebApiCore/Infrastructure/obj
+/SampleWebApiCore/SampleWebApiCore/Infrastructure/bin/Debug/net5.0

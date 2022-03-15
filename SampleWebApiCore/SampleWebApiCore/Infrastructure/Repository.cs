@@ -17,14 +17,14 @@ namespace Infrastructure
             _entity = _context.Set<T>();
         }
 
-        public T Get(long id)
+        public T Get(object id)
         {
             return _entity.Find(id);
         }
     }
     public interface IRepository<T> where T : class
     {     
-        public T Get(long Id);
+        public T Get(object Id);
         
     }
 }

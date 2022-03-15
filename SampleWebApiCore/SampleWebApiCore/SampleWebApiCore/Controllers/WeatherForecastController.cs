@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Infrastructure.DomainEntities;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,31 +11,22 @@ namespace SampleWebApiCore.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class DepartmentController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        private readonly DepartmentService _departmentService;
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<DepartmentController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public DepartmentController(ILogger<DepartmentController> logger, DepartmentService departmentService)
         {
             _logger = logger;
+            _departmentService = departmentService;
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public Department Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return _departmentService.GetDetails();
         }
     }
 }

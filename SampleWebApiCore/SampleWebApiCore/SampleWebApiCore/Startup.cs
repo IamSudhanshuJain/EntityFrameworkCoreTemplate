@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,6 +31,8 @@ namespace SampleWebApiCore
         {
             services.AddDbContext<OrganizationContext>(source => source.UseSqlServer(Configuration.GetConnectionString("OrganizationConnection")));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IDepartmentService), typeof(DepartmentService));
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

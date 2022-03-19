@@ -29,7 +29,13 @@ namespace Infrastructure
         }
         public void Update(T data)
         {
+            _context.Attach(data);
             _context.Entry(data).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
+        public void Delete(T data)
+        {
+            _context.Remove(data);
             _context.SaveChanges();
         }
     }
@@ -39,6 +45,7 @@ namespace Infrastructure
         public T Get(object Id);
         public void Save(T Data);
         public void Update(T Data);
+        public void Delete(T data);
 
     }
 }

@@ -13,16 +13,16 @@ namespace Service
 
         }
 
-        public Department GetDetails(int i)
+        public Department GetDepartment(int i)
         {
             return _departmentRepository.Get(i);
         }
 
-        public void SaveInformation(Department department)
+        public void SaveDepartment(Department department)
         {
             _departmentRepository.Save(department);
         }
-        public void UpdateInformation(Department department, int Id)
+        public void UpdateDepartment(Department department, int Id)
         {
             var existing = _departmentRepository.Get(Id);
             if (existing != null)
@@ -32,5 +32,14 @@ namespace Service
                 _departmentRepository.Update(existing);
             }
         }
+        public void DeleteDepartment(int id)
+        {
+            var existing = _departmentRepository.Get(id);
+            if (existing != null)
+            {
+                _departmentRepository.Delete(existing);
+            }
+        }
+
     }
 }

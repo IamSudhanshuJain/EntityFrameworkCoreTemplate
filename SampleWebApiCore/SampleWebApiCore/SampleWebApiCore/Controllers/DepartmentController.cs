@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace SampleWebApiCore.Controllers
 {
+    /// <summary>
+    /// Db generate : update-database
+    /// </summary>
     [ApiController]
     [Route("[controller]")]
     public class DepartmentController : ControllerBase

@@ -8,3 +8,6 @@
 /SampleWebApiCore/SampleWebApiCore/SampleWebApiCore/bin/Debug/net5.0
 /SampleWebApiCore/SampleWebApiCore/Infrastructure/obj
 /SampleWebApiCore/SampleWebApiCore/Infrastructure/bin/Debug/net5.0
+/SampleWebApiCore/SampleWebApiCore/Service/obj/Debug/net5.0
+/SampleWebApiCore/SampleWebApiCore/Service.Tests/obj
+/SampleWebApiCore/SampleWebApiCore/Controller.Tests/obj

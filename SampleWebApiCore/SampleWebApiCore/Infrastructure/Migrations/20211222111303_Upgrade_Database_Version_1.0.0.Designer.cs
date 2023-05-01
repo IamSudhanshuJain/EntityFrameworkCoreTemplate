@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Infrastructure.Migrations
 {
-    [DbContext(typeof(OrganizationContext))]
+    [DbContext(typeof(DbContext))]
     [Migration("20211222111303_Upgrade_Database_Version_1.0.0")]
     partial class Upgrade_Database_Version_100
     {

@@ -1,33 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj": {}
+    "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\SJain\\.nuget\\packages\\",
-        "outputPath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\irisuser\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SJain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irisuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nexushub.k8s-dev.int.kaplan.edu/repository/nuget-hosted": {}
+          "https://pkgs.dev.azure.com/Networx-Recruitment/_packaging/Networx-Packages/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -38,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -66,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,37 +81,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj": {
+    "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\SJain\\.nuget\\packages\\",
-        "outputPath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\obj\\",
+        "projectPath": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\irisuser\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\SJain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irisuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://nexushub.k8s-dev.int.kaplan.edu/repository/nuget-hosted": {}
+          "https://pkgs.dev.azure.com/Networx-Recruitment/_packaging/Networx-Packages/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Project\\Projects\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -117,15 +128,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -134,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

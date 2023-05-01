@@ -27,33 +27,33 @@ namespace SampleWebApiCore.Controllers
             _departmentService = departmentService;
         }
 
-        [HttpGet("GetDepartment")]
-        public Department Get(int Id)
+        [HttpGet]
+        public IActionResult Get(int Id)
         {
-            return _departmentService.GetDepartment(Id);
+            return Ok(_departmentService.GetDetails(Id));
         }
 
         [HttpPost("SaveDepartment")]
-        public IActionResult Save(DepartmentRequest department)
+        public IActionResult SaveData(DepartmentRequest department)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             Department dept = new Department() { Name = department.Name, Description = department.Description };
-            _departmentService.SaveDepartment(dept);
+            _departmentService.SaveInformation(dept);
             return Ok(dept);
         }
         [HttpPost("UpdateDepartment")]
-        public IActionResult Update(DepartmentRequest department, int Id)
+        public IActionResult UpdateData(DepartmentRequest department, int Id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             Department dept = new Department() { Name = department.Name, Description = department.Description };
-            _departmentService.UpdateDepartment(dept, Id);
-            var info = _departmentService.GetDepartment(Id);
+            _departmentService.UpdateInformation(dept,Id);
+            var info  = _departmentService.GetDetails(Id);
             return Ok(info);
 
         }

@@ -31,7 +31,7 @@ namespace SampleWebApiCore
         {
             services.AddDbContext<OrganizationContext>(source => source.UseSqlServer(Configuration.GetConnectionString("OrganizationConnection")));
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IDepartmentService), typeof(DepartmentService));
+            services.AddScoped<IDepartmentService, DepartmentService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

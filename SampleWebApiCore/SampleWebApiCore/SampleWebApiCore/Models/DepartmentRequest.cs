@@ -6,6 +6,8 @@ namespace SampleWebApiCore.Models
     {
         [Required(AllowEmptyStrings =false)]
         public string Name { get; set; }
+
+        [Required(AllowEmptyStrings = false)]
         public string Description { get; set; }
     }
 }

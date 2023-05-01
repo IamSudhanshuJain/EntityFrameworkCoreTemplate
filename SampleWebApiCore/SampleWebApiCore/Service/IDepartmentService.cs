@@ -9,9 +9,8 @@ namespace Service
 {
     public interface IDepartmentService
     {
-        Department GetDepartment(int i);
-        void SaveDepartment(Department department);
-        void UpdateDepartment(Department department, int Id);
-        void DeleteDepartment(int id);
+        Department GetDetails(int i);
+        void SaveInformation(Department department);
+        void UpdateInformation(Department department, int Id);
     }
 }

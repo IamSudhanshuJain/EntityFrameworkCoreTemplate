@@ -30,7 +30,7 @@ namespace Infrastructure
         public void Update(T data)
         {
             _context.Attach(data);
-            _context.Entry(data).State = EntityState.Modified;
+            //_context.Entry(data).State = EntityState.Modified;
             _context.SaveChanges();
         }
         public void Delete(T data)

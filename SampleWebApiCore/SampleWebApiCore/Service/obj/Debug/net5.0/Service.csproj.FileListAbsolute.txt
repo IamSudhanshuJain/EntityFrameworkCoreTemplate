@@ -1,0 +1,45 @@
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.deps.json
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\ref\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.pdb
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.dll
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.pdb
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\ref\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\ServiceRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.pdb
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.deps.json
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\ref\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.pdb
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.dll
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.pdb
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\ref\Service.dll
+D:\Presentations\Unit Testing\Practical_Examples\OldRepo\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.pdb
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.deps.json
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.dll
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Service.pdb
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.AssemblyReference.cache
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.csproj.CopyComplete
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.dll
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\refint\Service.dll
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\Service.pdb
+C:\Users\irisuser\Downloads\Excercises\EntityFrameworkCoreTemplate\SampleWebApiCore\SampleWebApiCore\Service\obj\Debug\net5.0\ref\Service.dll

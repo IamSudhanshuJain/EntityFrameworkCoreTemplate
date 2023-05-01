@@ -13,16 +13,19 @@ namespace Service
 
         }
 
-        public Department GetDepartment(int i)
+        public Department GetDetails(int i)
         {
             return _departmentRepository.Get(i);
         }
 
-        public void SaveDepartment(Department department)
+        public void SaveInformation(Department department)
         {
+            if (department == null)
+                throw new ArgumentException("Department cannot be null");
+
             _departmentRepository.Save(department);
         }
-        public void UpdateDepartment(Department department, int Id)
+        public void UpdateInformation(Department department, int Id)
         {
             var existing = _departmentRepository.Get(Id);
             if (existing != null)

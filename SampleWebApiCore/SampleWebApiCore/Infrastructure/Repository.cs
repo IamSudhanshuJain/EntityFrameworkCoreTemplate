@@ -21,10 +21,31 @@ namespace Infrastructure
         {
             return _entity.Find(id);
         }
+
+        public void Save(T data)
+        {
+            _context.Add(data);
+            _context.SaveChanges();
+        }
+        public void Update(T data)
+        {
+            _context.Attach(data);
+            _context.Entry(data).State = EntityState.Modified;
+            _context.SaveChanges();
+        }
+        public void Delete(T data)
+        {
+            _context.Remove(data);
+            _context.SaveChanges();
+        }
     }
+
     public interface IRepository<T> where T : class
-    {     
+    {
         public T Get(object Id);
-        
+        public void Save(T Data);
+        public void Update(T Data);
+        public void Delete(T data);
+
     }
 }

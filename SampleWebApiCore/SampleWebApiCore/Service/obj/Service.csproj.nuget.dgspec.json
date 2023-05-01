@@ -22,6 +22,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "D:\\LocalReleaseVersion": {},
+>>>>>>> b4bc0b17c7e10cb791b4b075cb1b7c592d36c6b2
           "https://api.nuget.org/v3/index.json": {},
           "https://nexushub.k8s-dev.int.kaplan.edu/repository/nuget-hosted": {}
         },
@@ -97,6 +101,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "D:\\LocalReleaseVersion": {},
+>>>>>>> b4bc0b17c7e10cb791b4b075cb1b7c592d36c6b2
           "https://api.nuget.org/v3/index.json": {},
           "https://nexushub.k8s-dev.int.kaplan.edu/repository/nuget-hosted": {}
         },

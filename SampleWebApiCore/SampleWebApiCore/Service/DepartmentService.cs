@@ -4,7 +4,7 @@ using System;
 
 namespace Service
 {
-    public class DepartmentService
+    public class DepartmentService: IDepartmentService
     {
         private readonly IRepository<Department> _departmentRepository;
         public DepartmentService(IRepository<Department> departmentRepository)
@@ -13,9 +13,33 @@ namespace Service
 
         }
 
-        public Department GetDetails()
+        public Department GetDepartment(int i)
         {
-            return _departmentRepository.Get(1);
+            return _departmentRepository.Get(i);
         }
+
+        public void SaveDepartment(Department department)
+        {
+            _departmentRepository.Save(department);
+        }
+        public void UpdateDepartment(Department department, int Id)
+        {
+            var existing = _departmentRepository.Get(Id);
+            if (existing != null)
+            {
+                existing.Name = department.Name;
+                existing.Description = department.Description;  
+                _departmentRepository.Update(existing);
+            }
+        }
+        public void DeleteDepartment(int id)
+        {
+            var existing = _departmentRepository.Get(id);
+            if (existing != null)
+            {
+                _departmentRepository.Delete(existing);
+            }
+        }
+
     }
 }

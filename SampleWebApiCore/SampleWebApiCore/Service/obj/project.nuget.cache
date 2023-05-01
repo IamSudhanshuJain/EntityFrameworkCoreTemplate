@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "R4+D+PbLAh3NubrlJ3vQSohHZ/uS/weLp59RYfJF+IS2M8O7nGWv5VIQaKrneB8PZNC2YXM/yRB9dcAaCWGK7w==",
+=======
+  "dgSpecHash": "QN2S/6LRNbmxZYE3R94BtASCjTIpC76O+r57kcQf3ixRCH9YCo422Y8NrivJWeqxUfV69voKPuZjXqMGVO9ytA==",
+>>>>>>> b4bc0b17c7e10cb791b4b075cb1b7c592d36c6b2
   "success": true,
   "projectFilePath": "D:\\Presentations\\Unit Testing\\Practical_Examples\\ServiceRepo\\EntityFrameworkCoreTemplate\\SampleWebApiCore\\SampleWebApiCore\\Service\\Service.csproj",
   "expectedPackageFiles": [

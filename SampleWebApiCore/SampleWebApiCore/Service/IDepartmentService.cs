@@ -12,5 +12,6 @@ namespace Service
         Department GetDetails(int i);
         void SaveInformation(Department department);
         void UpdateInformation(Department department, int Id);
+        void DeleteDepartment(int id);
     }
 }

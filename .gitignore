@@ -11,3 +11,5 @@
 /SampleWebApiCore/SampleWebApiCore/Service/obj/Debug/net5.0
 /SampleWebApiCore/SampleWebApiCore/Service.Tests/obj
 /SampleWebApiCore/SampleWebApiCore/Controller.Tests/obj
+/SampleWebApiCore/SampleWebApiCore/Service/bin/Debug/net5.0
+/SampleWebApiCore/SampleWebApiCore/Service/obj
